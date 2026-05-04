@@ -2,9 +2,9 @@
   "name": "chai-aur-typescript",
   "version": "1.0.0",
   "description": "",
-  "main": "01-basic.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "01-basic.js",  "scripts": {
+    "start": "node dist/index.js",
+    "dev":"npx tsc"
   },
   "repository": {
     "type": "git",
