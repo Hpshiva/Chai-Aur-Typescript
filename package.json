@@ -1,0 +1,24 @@
+{
+  "name": "chai-aur-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01-basic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hpshiva/Chai-Aur-Typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Hpshiva/Chai-Aur-Typescript/issues"
+  },
+  "homepage": "https://github.com/Hpshiva/Chai-Aur-Typescript#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
