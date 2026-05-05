@@ -1,11 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-// TypeNarrowing 
+// TypeNarrowing
 function getChai(kind) {
     // if(typeof kind ==="string") return `Kind of Chai is ${kind}`
     // return `Chai Quantity is ${kind}`
-    // both are okay here for type narrowing if...else and ternary 
-    return typeof kind === "string" ? `Kind of Chai is ${kind}` : `Chai Quantity is ${kind}`;
+    // both are okay here for type narrowing if...else and ternary
+    return typeof kind === "string"
+        ? `Kind of Chai is ${kind}`
+        : `Chai Quantity is ${kind}`;
 }
 console.log(getChai(23));
 // With "?" (optional parameter)
