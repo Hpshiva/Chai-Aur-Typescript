@@ -37,7 +37,7 @@ function makingChai(obj?: Chai) {
       break;
   }
 }
- 
+
 makingChai({
   type: "regular",
   aroma: 10,
